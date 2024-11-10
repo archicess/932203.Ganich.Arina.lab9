@@ -1,0 +1,42 @@
+.Calculator{
+    width: 250px;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+#area{
+    width: 242px;
+    height: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.btn, .btn_number, .btn_op{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+table.buttons{
+    text-decoration: none;
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+}
+table.buttons th{
+    font-weight:normal;
+    font-size:14px;
+    color:#ffffff;
+    background-color:#000000;
+}
+table.buttons td{
+    font-size:13px;
+    color:#000000;
+}
+table.buttons td,table.buttons th{
+    white-space:pre-wrap;
+    width: 25px;
+    height: 45px;
+    vertical-align: middle;
+}
